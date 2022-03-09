@@ -1,0 +1,94 @@
+/**************************************/
+/**************************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 30px;
+  background-color: #fff;
+  color: black;
+}
+.header-logo {
+  width: 7vw;
+}
+.header-nav-list {
+  display: flex;
+  font-size: 1.1vw;
+}
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+/**************************************/
+/**************************************/
+.first-mv {
+  position: relative;
+}
+.mv {
+  padding: 0;
+  margin: 0;
+  height: 25vw;
+  width: 100%;
+  object-fit: cover;
+}
+.first-mv-ttl {
+  position: absolute;
+  top: 11vw;
+  left: 45%;
+  font-size: 3vw;
+  text-align: center;
+  color: #fff;
+}
+/**************************************/
+.recruit{
+  margin: 10vw 5vw 15vw 15vw;
+  font-weight: bold;
+  font-size: 50vw;
+} 
+/**************************************/
+/**************************************/
+.footer-gray-box{
+  width: 100%;
+  height: 25vw;
+  background-color: rgb(240, 240, 240);
+}
+.contact{
+  text-align: center;
+}
+.contact-ttl{
+  padding-top: 5vw;
+  font-size: 3vw;
+  font-weight: bold;
+}
+.contact-msg{
+  margin-top: 3vw;
+}
+.contact-btn{
+  margin       : 30px auto;
+  width        : 240px;
+  height       : 40px;
+  background   : #b30000;
+  color: #fff;
+  font-size: 1.5vw;
+}
+.contact-btn-msg{
+  padding: 0.5vw 0;
+}
+/**************************************/
+.footer-black-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 30px;
+  background-color: black;
+  color: #fff;
+  font-size: 13px;
+}
+.footerNav {
+  color: #fff;
+}
+.copyright {
+  padding-top: 10px;
+  font-size: 13px;
+}
