@@ -147,16 +147,32 @@
   height       : 40px;
   background   : #b30000;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 .service-btn-msg{
-  padding-left: 1.5vw;
+  padding-left: 25px;
 }
 .black-box-2{
   margin: auto;
   width: 100%;
   height: 30vw;
   background: #000000;
+  position: relative;
+}
+.black-box-btn{
+  position: absolute;
+  top: 3.1vw;
+  left: 80vw;
+  margin       : 50px auto;
+  width        : 165px;
+  height       : 33px;
+  background   : #b30000;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+.black-box-btn-msg{
+  padding: 15px ;
 }
 .kakomi-matome{
   margin: -2vw;
@@ -202,11 +218,11 @@
   height       : 40px;
   background   : #b30000;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 20px;
   text-align: center;
 }
 .blog-btn-msg{
-  padding-top: 1vw ;
+  padding-top: 25px ;
 }
 .footer-grid {
   display: grid;
@@ -267,10 +283,10 @@
   height       : 40px;
   background   : #b30000;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 .contact-btn-msg{
-  padding: 0.5vw 0;
+  padding: 15px 0;
 }
 /**************************************/
 .footer-black-box{
